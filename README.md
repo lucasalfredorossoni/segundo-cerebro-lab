@@ -17,6 +17,18 @@ evoluir.
 - `experiments/`: testes rapidos antes de virar processo oficial.
 - `.github/`: templates para issues e pull requests.
 
+## Comando local
+
+Este lab inclui o comando `cerebro`, um CLI operacional para status, timers,
+triagem com timer obrigatorio, issues e resumos.
+
+```bash
+scripts/install-cerebro.sh
+cerebro status
+```
+
+Veja [docs/06-cerebro-cli.md](docs/06-cerebro-cli.md) para detalhes.
+
 ## Como trabalhar aqui
 
 1. Registre a intencao em `docs/roadmap.md` antes de construir algo grande.
