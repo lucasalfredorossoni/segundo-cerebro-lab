@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "ClickUp"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true
+    }
+}
