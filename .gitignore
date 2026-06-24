@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Segundo Cerebro local state
+.cerebro/
+data/processed/triagem/drafts/
+data/processed/triagem/official/
+!data/processed/triagem/README.md
