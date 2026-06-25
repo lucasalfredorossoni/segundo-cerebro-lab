@@ -66,6 +66,32 @@ No grafo, isso aparece como:
 3. Rode `seeds/seed-mvp.cypher`.
 4. Rode as queries em `queries/`.
 
+## Instancia local deste lab
+
+Esta maquina usa uma instalacao local, sem `sudo`, em:
+
+- JDK: `~/.local/opt/jdk-21`
+- Neo4j: `~/.local/opt/neo4j`
+- Config local: `.cerebro/neo4j.env`
+
+O arquivo `.cerebro/neo4j.env` fica fora do Git e guarda a senha local.
+
+Comandos operacionais:
+
+```bash
+scripts/neo4j-local.sh start
+scripts/neo4j-local.sh status
+scripts/neo4j-local.sh load
+scripts/neo4j-local.sh query neo4j/queries/registros-sem-timer.cypher
+scripts/neo4j-local.sh stop
+```
+
+Browser local:
+
+```text
+http://127.0.0.1:7474
+```
+
 ## Como executar com cypher-shell
 
 ```bash
