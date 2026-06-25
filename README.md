@@ -15,6 +15,7 @@ evoluir.
 - `data/`: dados de trabalho, amostras e esquemas sem informacao sensivel.
 - `content/`: pautas, formatos e materiais publicaveis.
 - `experiments/`: testes rapidos antes de virar processo oficial.
+- `neo4j/`: schema, seed e queries do grafo de conhecimento.
 - `.github/`: templates para issues e pull requests.
 
 ## Comando local
